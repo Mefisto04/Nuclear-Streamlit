@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuclear-monitoring"
+version = "0.1.0"
+description = "Nuclear Reactor Monitoring System"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.24.0",
+    "pandas>=1.5.3",
+    "numpy>=1.23.5",
+    "scikit-learn>=1.2.2",
+    "joblib>=1.2.0",
+    "matplotlib>=3.7.1",
+    "seaborn>=0.12.2",
+] 
